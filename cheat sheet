@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="./resources/css/styles.css">
+</head>
+<body>
+    <div class="sansserif">
+    <h1>HTML tags</h1>
+    <h2>HTML elements</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Tag Name</th>
+                <th>Description</th>
+            </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="code">&lt;h1&gt;~&lt;h6&gt;</span></td>
+                <td>Headings</td>
+                <td>represent headlines of contents</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;div&gt;</span></td>
+                <td>Division</td>
+                <td>don't appear on the web, but it can separate the code block</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;p&gt;</span></td>
+                <td>Paragraph</td>
+                <td>contain a block of plain text.</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;img&gt;</span></td>
+                <td>Image</td>
+                <td>deal with image files</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;video&gt;</span></td>
+                <td>Video</td>
+                <td>contain video files</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Semantic HTML</h2>
+    <img src="./resources/images/css.png" alt="">
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Tag Name</th>
+                <th>Description</th>
+            </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="code">&lt;Header&gt;&&lt;Nav&gt;</span></td>
+                <td>Header tag, Navigation tag</td>
+                <td>used for menu block</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;Section&gt;</span></td>
+                <td>Section tag</td>
+                <td>defines elements in a document, such as chapters, headings</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;article&gt;</span></td>
+                <td>Article tag</td>
+                <td>holds content that makes sense on its own.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
